@@ -1,5 +1,6 @@
 # sample-cafe
-カフェをイメージしたサンプルサイト
+[カフェをイメージしたサンプルサイト](http://portfolio.mizukazu.com/samplecafe/)
+
 Bootstrapの学習も兼ねてサイトを制作
 
 ## サイトのコンセプト
