@@ -1,42 +1,42 @@
-body{
+body {
   font-family: 'Kosugi Maru', sans-serif;
 }
 
-footer{
+footer {
   width: 100%;
   padding: 10px;
   text-align: center;
   background: #deb887;
 }
 
-.underline{
+.underline {
   border-bottom: grey 1px solid;
 }
 
-.jumbotron{
+.jumbotron {
   background: url(../img/headerm.jpg) center no-repeat;
   background-size: cover;
   margin-bottom: 0px;
 }
 
-.navbar-custom{
+.navbar-custom {
   background-color: #efebe0;
 }
 
-.carousel{
+.carousel {
   width: 100%;
   margin: auto;
 }
 
-.font-coffee{
+.font-coffee {
   color: #deb887;
 }
 
-.my-small{
+.my-small {
   font-size: 50%;
 }
 
-.ggmap{
+.ggmap {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
@@ -44,10 +44,10 @@ footer{
   overflow: hidden;
 }
 
-.ggmap iframe{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+.ggmap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
