@@ -1,4 +1,4 @@
-# sample-cafe(学習用)
+# sample-cafe【学習用】
 [カフェをイメージしたサンプルサイト](http://portfolio.mizukazu.com/samplecafe/)
 
 Bootstrapの学習も兼ねてサイトを制作
