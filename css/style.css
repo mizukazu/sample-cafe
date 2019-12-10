@@ -1,7 +1,9 @@
 @charset "UTF-8";
+
 /* =Reset default browser CSS.
 Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   border: 0;
   font-family: inherit;
@@ -11,45 +13,57 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin: 0;
   outline: 0;
   padding: 0;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 :focus {
-  outline: 0; }
+  outline: 0;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 table {
   border-collapse: separate;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 caption, th, td {
   font-weight: normal;
-  text-align: left; }
+  text-align: left;
+}
 
 blockquote:before, blockquote:after, q:before, q:after {
-  content: ""; }
+  content: "";
+}
 
 blockquote, q {
-  quotes: "" ""; }
+  quotes: "" "";
+}
 
 a img {
-  border: 0; }
+  border: 0;
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  font: 80%/1.5 "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+  font: 80%/1.5 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
   color: #252525;
   -webkit-text-size-adjust: none;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+}
+
 
 /*画面幅が480pxまでの時*/
+
 @media screen and (max-width: 480px) {
   .nav {
-    display: flex; }
-
+    display: flex;
+  }
   .nav-item {
     width: 100vw;
     background-color: #BDBDBD;
@@ -58,29 +72,35 @@ body {
     text-align: center;
     color: black;
     padding: 10px;
-    border-left: solid 1px; }
-    .nav-item a {
-      text-decoration: none;
-      color: #252525; } }
+    border-left: solid 1px;
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: #252525;
+  }
+}
+
+
 /*画面幅が781px以上の時*/
+
 @media screen and (min-width: 481px) {
   h1 {
-    font-size: 40px; }
-
+    font-size: 40px;
+  }
   h2 {
     font-size: 24px;
-    font-weight: bold; }
-
+    font-weight: bold;
+  }
   header {
-    background-color: tan; }
-
+    background-color: tan;
+  }
   a img {
     margin-left: 80px;
-    padding: 20px 20px; }
-
+    padding: 20px 20px;
+  }
   .nav {
-    display: flex; }
-
+    display: flex;
+  }
   .nav-item {
     width: 100vw;
     background-color: #BDBDBD;
@@ -89,9 +109,13 @@ body {
     text-align: center;
     color: black;
     padding: 10px;
-    border-left: solid 1px; }
-    .nav-item a {
-      text-decoration: none;
-      color: #252525; } }
+    border-left: solid 1px;
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: #252525;
+  }
+}
+
 
 /*# sourceMappingURL=style.css.map */
